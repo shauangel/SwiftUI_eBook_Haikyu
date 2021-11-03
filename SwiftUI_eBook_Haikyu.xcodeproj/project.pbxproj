@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48454B9927326597008FC294 /* SwiftUI_eBook_HaikyuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48454B9827326597008FC294 /* SwiftUI_eBook_HaikyuApp.swift */; };
+		48454B9B27326597008FC294 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48454B9A27326597008FC294 /* ContentView.swift */; };
+		48454B9D2732659B008FC294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48454B9C2732659B008FC294 /* Assets.xcassets */; };
+		48454BA02732659B008FC294 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48454B9F2732659B008FC294 /* Preview Assets.xcassets */; };
+		48454BAA2732659B008FC294 /* SwiftUI_eBook_HaikyuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48454BA92732659B008FC294 /* SwiftUI_eBook_HaikyuTests.swift */; };
+		48454BB42732659B008FC294 /* SwiftUI_eBook_HaikyuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48454BB32732659B008FC294 /* SwiftUI_eBook_HaikyuUITests.swift */; };
+		48454BB62732659B008FC294 /* SwiftUI_eBook_HaikyuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48454BB52732659B008FC294 /* SwiftUI_eBook_HaikyuUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48454BA62732659B008FC294 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48454B8D27326597008FC294 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48454B9427326597008FC294;
+			remoteInfo = SwiftUI_eBook_Haikyu;
+		};
+		48454BB02732659B008FC294 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48454B8D27326597008FC294 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48454B9427326597008FC294;
+			remoteInfo = SwiftUI_eBook_Haikyu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48454B9527326597008FC294 /* SwiftUI_eBook_Haikyu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_eBook_Haikyu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48454B9827326597008FC294 /* SwiftUI_eBook_HaikyuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_eBook_HaikyuApp.swift; sourceTree = "<group>"; };
+		48454B9A27326597008FC294 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		48454B9C2732659B008FC294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48454B9F2732659B008FC294 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		48454BA52732659B008FC294 /* SwiftUI_eBook_HaikyuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_eBook_HaikyuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48454BA92732659B008FC294 /* SwiftUI_eBook_HaikyuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_eBook_HaikyuTests.swift; sourceTree = "<group>"; };
+		48454BAF2732659B008FC294 /* SwiftUI_eBook_HaikyuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_eBook_HaikyuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48454BB32732659B008FC294 /* SwiftUI_eBook_HaikyuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_eBook_HaikyuUITests.swift; sourceTree = "<group>"; };
+		48454BB52732659B008FC294 /* SwiftUI_eBook_HaikyuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_eBook_HaikyuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48454B9227326597008FC294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48454BA22732659B008FC294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48454BAC2732659B008FC294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48454B8C27326597008FC294 = {
+			isa = PBXGroup;
+			children = (
+				48454B9727326597008FC294 /* SwiftUI_eBook_Haikyu */,
+				48454BA82732659B008FC294 /* SwiftUI_eBook_HaikyuTests */,
+				48454BB22732659B008FC294 /* SwiftUI_eBook_HaikyuUITests */,
+				48454B9627326597008FC294 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48454B9627326597008FC294 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48454B9527326597008FC294 /* SwiftUI_eBook_Haikyu.app */,
+				48454BA52732659B008FC294 /* SwiftUI_eBook_HaikyuTests.xctest */,
+				48454BAF2732659B008FC294 /* SwiftUI_eBook_HaikyuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48454B9727326597008FC294 /* SwiftUI_eBook_Haikyu */ = {
+			isa = PBXGroup;
+			children = (
+				48454B9827326597008FC294 /* SwiftUI_eBook_HaikyuApp.swift */,
+				48454B9A27326597008FC294 /* ContentView.swift */,
+				48454B9C2732659B008FC294 /* Assets.xcassets */,
+				48454B9E2732659B008FC294 /* Preview Content */,
+			);
+			path = SwiftUI_eBook_Haikyu;
+			sourceTree = "<group>";
+		};
+		48454B9E2732659B008FC294 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				48454B9F2732659B008FC294 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		48454BA82732659B008FC294 /* SwiftUI_eBook_HaikyuTests */ = {
+			isa = PBXGroup;
+			children = (
+				48454BA92732659B008FC294 /* SwiftUI_eBook_HaikyuTests.swift */,
+			);
+			path = SwiftUI_eBook_HaikyuTests;
+			sourceTree = "<group>";
+		};
+		48454BB22732659B008FC294 /* SwiftUI_eBook_HaikyuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48454BB32732659B008FC294 /* SwiftUI_eBook_HaikyuUITests.swift */,
+				48454BB52732659B008FC294 /* SwiftUI_eBook_HaikyuUITestsLaunchTests.swift */,
+			);
+			path = SwiftUI_eBook_HaikyuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48454B9427326597008FC294 /* SwiftUI_eBook_Haikyu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48454BB92732659B008FC294 /* Build configuration list for PBXNativeTarget "SwiftUI_eBook_Haikyu" */;
+			buildPhases = (
+				48454B9127326597008FC294 /* Sources */,
+				48454B9227326597008FC294 /* Frameworks */,
+				48454B9327326597008FC294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUI_eBook_Haikyu;
+			productName = SwiftUI_eBook_Haikyu;
+			productReference = 48454B9527326597008FC294 /* SwiftUI_eBook_Haikyu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48454BA42732659B008FC294 /* SwiftUI_eBook_HaikyuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48454BBC2732659B008FC294 /* Build configuration list for PBXNativeTarget "SwiftUI_eBook_HaikyuTests" */;
+			buildPhases = (
+				48454BA12732659B008FC294 /* Sources */,
+				48454BA22732659B008FC294 /* Frameworks */,
+				48454BA32732659B008FC294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48454BA72732659B008FC294 /* PBXTargetDependency */,
+			);
+			name = SwiftUI_eBook_HaikyuTests;
+			productName = SwiftUI_eBook_HaikyuTests;
+			productReference = 48454BA52732659B008FC294 /* SwiftUI_eBook_HaikyuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48454BAE2732659B008FC294 /* SwiftUI_eBook_HaikyuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48454BBF2732659B008FC294 /* Build configuration list for PBXNativeTarget "SwiftUI_eBook_HaikyuUITests" */;
+			buildPhases = (
+				48454BAB2732659B008FC294 /* Sources */,
+				48454BAC2732659B008FC294 /* Frameworks */,
+				48454BAD2732659B008FC294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48454BB12732659B008FC294 /* PBXTargetDependency */,
+			);
+			name = SwiftUI_eBook_HaikyuUITests;
+			productName = SwiftUI_eBook_HaikyuUITests;
+			productReference = 48454BAF2732659B008FC294 /* SwiftUI_eBook_HaikyuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48454B8D27326597008FC294 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					48454B9427326597008FC294 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					48454BA42732659B008FC294 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 48454B9427326597008FC294;
+					};
+					48454BAE2732659B008FC294 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 48454B9427326597008FC294;
+					};
+				};
+			};
+			buildConfigurationList = 48454B9027326597008FC294 /* Build configuration list for PBXProject "SwiftUI_eBook_Haikyu" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48454B8C27326597008FC294;
+			productRefGroup = 48454B9627326597008FC294 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48454B9427326597008FC294 /* SwiftUI_eBook_Haikyu */,
+				48454BA42732659B008FC294 /* SwiftUI_eBook_HaikyuTests */,
+				48454BAE2732659B008FC294 /* SwiftUI_eBook_HaikyuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48454B9327326597008FC294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48454BA02732659B008FC294 /* Preview Assets.xcassets in Resources */,
+				48454B9D2732659B008FC294 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48454BA32732659B008FC294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48454BAD2732659B008FC294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48454B9127326597008FC294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48454B9B27326597008FC294 /* ContentView.swift in Sources */,
+				48454B9927326597008FC294 /* SwiftUI_eBook_HaikyuApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48454BA12732659B008FC294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48454BAA2732659B008FC294 /* SwiftUI_eBook_HaikyuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48454BAB2732659B008FC294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48454BB62732659B008FC294 /* SwiftUI_eBook_HaikyuUITestsLaunchTests.swift in Sources */,
+				48454BB42732659B008FC294 /* SwiftUI_eBook_HaikyuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48454BA72732659B008FC294 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48454B9427326597008FC294 /* SwiftUI_eBook_Haikyu */;
+			targetProxy = 48454BA62732659B008FC294 /* PBXContainerItemProxy */;
+		};
+		48454BB12732659B008FC294 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48454B9427326597008FC294 /* SwiftUI_eBook_Haikyu */;
+			targetProxy = 48454BB02732659B008FC294 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		48454BB72732659B008FC294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48454BB82732659B008FC294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48454BBA2732659B008FC294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_eBook_Haikyu/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "angel.SwiftUI-eBook-Haikyu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48454BBB2732659B008FC294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_eBook_Haikyu/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "angel.SwiftUI-eBook-Haikyu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48454BBD2732659B008FC294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "angel.SwiftUI-eBook-HaikyuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI_eBook_Haikyu.app/SwiftUI_eBook_Haikyu";
+			};
+			name = Debug;
+		};
+		48454BBE2732659B008FC294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "angel.SwiftUI-eBook-HaikyuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI_eBook_Haikyu.app/SwiftUI_eBook_Haikyu";
+			};
+			name = Release;
+		};
+		48454BC02732659B008FC294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "angel.SwiftUI-eBook-HaikyuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftUI_eBook_Haikyu;
+			};
+			name = Debug;
+		};
+		48454BC12732659B008FC294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "angel.SwiftUI-eBook-HaikyuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftUI_eBook_Haikyu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48454B9027326597008FC294 /* Build configuration list for PBXProject "SwiftUI_eBook_Haikyu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48454BB72732659B008FC294 /* Debug */,
+				48454BB82732659B008FC294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48454BB92732659B008FC294 /* Build configuration list for PBXNativeTarget "SwiftUI_eBook_Haikyu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48454BBA2732659B008FC294 /* Debug */,
+				48454BBB2732659B008FC294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48454BBC2732659B008FC294 /* Build configuration list for PBXNativeTarget "SwiftUI_eBook_HaikyuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48454BBD2732659B008FC294 /* Debug */,
+				48454BBE2732659B008FC294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48454BBF2732659B008FC294 /* Build configuration list for PBXNativeTarget "SwiftUI_eBook_HaikyuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48454BC02732659B008FC294 /* Debug */,
+				48454BC12732659B008FC294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48454B8D27326597008FC294 /* Project object */;
+}
