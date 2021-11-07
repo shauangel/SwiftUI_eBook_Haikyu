@@ -14,6 +14,10 @@
 		48454BAA2732659B008FC294 /* SwiftUI_eBook_HaikyuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48454BA92732659B008FC294 /* SwiftUI_eBook_HaikyuTests.swift */; };
 		48454BB42732659B008FC294 /* SwiftUI_eBook_HaikyuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48454BB32732659B008FC294 /* SwiftUI_eBook_HaikyuUITests.swift */; };
 		48454BB62732659B008FC294 /* SwiftUI_eBook_HaikyuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48454BB52732659B008FC294 /* SwiftUI_eBook_HaikyuUITestsLaunchTests.swift */; };
+		48454BC32732769A008FC294 /* ListRowViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48454BC22732769A008FC294 /* ListRowViews.swift */; };
+		48454BC5273282E4008FC294 /* CustomStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48454BC4273282E4008FC294 /* CustomStructures.swift */; };
+		48454BC72737FF0A008FC294 /* PlayerInformation.json in Resources */ = {isa = PBXBuildFile; fileRef = 48454BC62737FF0A008FC294 /* PlayerInformation.json */; };
+		48454BC927380382008FC294 /* PlayerLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48454BC827380382008FC294 /* PlayerLists.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		48454BAF2732659B008FC294 /* SwiftUI_eBook_HaikyuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_eBook_HaikyuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48454BB32732659B008FC294 /* SwiftUI_eBook_HaikyuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_eBook_HaikyuUITests.swift; sourceTree = "<group>"; };
 		48454BB52732659B008FC294 /* SwiftUI_eBook_HaikyuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_eBook_HaikyuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		48454BC22732769A008FC294 /* ListRowViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowViews.swift; sourceTree = "<group>"; };
+		48454BC4273282E4008FC294 /* CustomStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStructures.swift; sourceTree = "<group>"; };
+		48454BC62737FF0A008FC294 /* PlayerInformation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PlayerInformation.json; sourceTree = "<group>"; };
+		48454BC827380382008FC294 /* PlayerLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerLists.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +102,14 @@
 		48454B9727326597008FC294 /* SwiftUI_eBook_Haikyu */ = {
 			isa = PBXGroup;
 			children = (
-				48454B9827326597008FC294 /* SwiftUI_eBook_HaikyuApp.swift */,
+				48454BC62737FF0A008FC294 /* PlayerInformation.json */,
 				48454B9A27326597008FC294 /* ContentView.swift */,
+				48454BC4273282E4008FC294 /* CustomStructures.swift */,
+				48454BC22732769A008FC294 /* ListRowViews.swift */,
+				48454B9827326597008FC294 /* SwiftUI_eBook_HaikyuApp.swift */,
 				48454B9C2732659B008FC294 /* Assets.xcassets */,
 				48454B9E2732659B008FC294 /* Preview Content */,
+				48454BC827380382008FC294 /* PlayerLists.swift */,
 			);
 			path = SwiftUI_eBook_Haikyu;
 			sourceTree = "<group>";
@@ -232,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48454BA02732659B008FC294 /* Preview Assets.xcassets in Resources */,
+				48454BC72737FF0A008FC294 /* PlayerInformation.json in Resources */,
 				48454B9D2732659B008FC294 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48454BC5273282E4008FC294 /* CustomStructures.swift in Sources */,
 				48454B9B27326597008FC294 /* ContentView.swift in Sources */,
+				48454BC32732769A008FC294 /* ListRowViews.swift in Sources */,
+				48454BC927380382008FC294 /* PlayerLists.swift in Sources */,
 				48454B9927326597008FC294 /* SwiftUI_eBook_HaikyuApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
